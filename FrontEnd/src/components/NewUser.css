@@ -1,0 +1,541 @@
+/* pages/NewUser.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.newuser-page {
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.newuser-container {
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+     right: 50%;
+}
+
+.logo-section-newuser {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 5;
+}
+
+.newuser-logo {
+    position: relative;
+    left: 1200px;
+    object-fit: contain;
+}
+
+.forward-arrow-newuser {
+    position: relative;
+    left: 750px;
+    border-radius: 30px;
+    padding: 15px 40px;
+    background-color: #F2BB13;
+    font-size: 32px;
+    font-weight: 300;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.forward-arrow-newuser:hover {
+    transform: translateX(4px);
+}
+
+.back-arrow-newuser {
+    border-radius: 30px;
+    padding: 10px 40px;
+    background-color: #F2BB13;
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    font-size: 32px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.back-arrow-newuser:hover {
+    transform: translateX(-4px);
+}
+
+.newuser-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: 50px;
+}
+
+.newuser-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    bottom: 50px;
+    right: 265px;
+}
+
+.form-row-newuser-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-newuser-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label-newuser-email {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A5568;
+    margin-right: 640px;
+}
+
+.form-input-newuser-email {
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 16px;
+    border: 2px solid #E2E8F0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background: #F7FAFC;
+}
+
+.form-input-newuser-email:focus {
+    outline: none;
+    border-color: #4B9F3E;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background: white;
+}
+
+.form-input-newuser-email::placeholder {
+    color: #A0AEC0;
+    font-weight: 400;
+}
+
+.form-row-newuser-name {
+    display: flex;
+    gap: 20px;
+    
+}
+
+/* First Name*/
+
+
+.form-group-newuser-firstname {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+        padding-top: 50px;
+
+    
+}
+
+.form-label-newuser-firstname {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A5568;
+        margin-right: 230px;
+        margin-bottom: 10px;
+
+}
+
+.form-input-newuser-firstname {
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 16px;
+    border: 2px solid #E2E8F0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background: #F7FAFC;
+}
+
+.form-input-newuser-firstname:focus {
+    outline: none;
+    border-color: #4B9F3E;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background: white;
+}
+
+.form-input-newuser-firstname::placeholder {
+    color: #A0AEC0;
+    font-weight: 400;
+}
+
+
+/* last Name*/
+
+
+.form-group-newuser-lastname {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+     padding-top: 50px;
+
+}
+
+.form-label-newuser-lastname {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A5568;
+            margin-right: 230px;
+                    margin-bottom: 10px;
+
+
+}
+
+.form-input-newuser-lastname {
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 16px;
+    border: 2px solid #E2E8F0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background: #F7FAFC;
+}
+
+.form-input-newuser-lastname:focus {
+    outline: none;
+    border-color: #4B9F3E;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background: white;
+}
+
+.form-input-newuser-lastname::placeholder {
+    color: #A0AEC0;
+    font-weight: 400;
+}
+
+/* Mobile */
+
+.form-row-newuser-contact {
+    display: flex;
+    gap: 20px;
+         padding-top: 50px;
+
+}
+
+.form-group-newuser-mobile {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label-newuser-mobile {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A5568;
+            margin-right: 190px;
+                    margin-bottom: 10px;
+
+
+}
+
+.form-input-newuser-mobile {
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 16px;
+    border: 2px solid #E2E8F0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background: #F7FAFC;
+}
+
+.form-input-newuser-mobile:focus {
+    outline: none;
+    border-color: #4B9F3E;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background: white;
+}
+
+.form-input-newuser-mobile::placeholder {
+    color: #A0AEC0;
+    font-weight: 400;
+}
+
+/* Date */
+
+.form-group-newuser-dob {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label-newuser-dob {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A5568;
+                margin-right: 215px;
+                        margin-bottom: 10px;
+
+
+    
+}
+
+.form-input-newuser-dob {
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 16px;
+    border: 2px solid #E2E8F0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background: #F7FAFC;
+        color: #A0AEC0;
+
+ }
+
+.form-input-newuser-dob:focus {
+    outline: none;
+    border-color: #4B9F3E;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background: white;
+    
+}
+
+ /* Discount */
+
+.form-row-newuser-security{
+    display: flex;
+    gap: 20px;
+         padding-top: 50px;
+
+}
+
+.form-group-newuser-discount {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label-newuser-discount {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A5568;
+    margin-right: 210px;
+                    margin-bottom: 10px;
+}
+
+.form-input-newuser-discount {
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 16px;
+    border: 2px solid #E2E8F0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background: #F7FAFC;
+}
+
+.form-input-newuser-discount:focus {
+    outline: none;
+    border-color: #4B9F3E;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background: white;
+}
+
+.form-input-newuser-discount::placeholder {
+    color: #A0AEC0;
+    font-weight: 400;
+}
+
+ /* Pass*/
+
+
+.form-group-newuser-password {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label-newuser-password {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A5568;
+    margin-right: 235px;
+                        margin-bottom: 10px;
+}
+
+.form-input-newuser-password {
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 16px;
+    border: 2px solid #E2E8F0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background: #F7FAFC;
+}
+
+.form-input-newuser-password:focus {
+    outline: none;
+    border-color: #4B9F3E;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background: white;
+}
+
+.form-input-newuser-password::placeholder {
+    color: #A0AEC0;
+    font-weight: 400;
+}
+
+ /* Terms and conditions button*/
+
+
+.form-row-newuser-terms {
+    display: flex;
+    flex-direction: column;
+         padding-top: 50px;
+
+    
+}
+
+.form-group-newuser-terms {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label-newuser-terms {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4A5568;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.form-input-newuser-terms {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #F2BB13;
+}
+
+.required-newuser {
+    color: #E53E3E;
+    margin-left: 4px;
+}
+
+.error-message-newuser {
+    font-family: 'Poppins', sans-serif;
+    color: #E53E3E;
+    font-size: 13px;
+    margin-bottom: -20px;
+    margin-right: 480px;
+    font-weight: 500;
+}
+
+/* Popup styles */
+
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-container {
+    background: white;
+    border-radius: 20px;
+    padding: 60px 80px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    animation: popupFadeIn 0.3s ease;
+}
+
+@keyframes popupFadeIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.popup-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.popup-close-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2BB13;
+    color: #ffffff;
+    border: none;
+    padding: 14px 60px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(242, 187, 19, 0.3);
+}
+
+.popup-close-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(242, 187, 19, 0.5);
+}
+
+@media (max-width: 480px) {
+    .newuser-container {
+        padding: 30px 20px;
+    }
+
+    .newuser-title {
+        font-size: 24px;
+    }
+
+    .newuser-subtitle {
+        font-size: 14px;
+    }
+    
+    .form-row-newuser-name {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

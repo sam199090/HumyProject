@@ -1,0 +1,296 @@
+/* src/components/BecomePayoneer.css */
+/* === نفس CSS صفحة BecomeDriver بالكامل === */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Popup Settings */
+.driver-page {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.driver-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index: 1;
+}
+
+.driver-modal {
+    position: relative;
+    z-index: 2;
+    width: 78%;
+    max-width: 720px;
+    max-height: 95vh;
+    padding: 18px 20px 25px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* باقي الستايلات (كلها نسخة مطابقة) */
+.driver-modal-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.driver-left { flex: 0 0 150px; }
+
+.driver-circle-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 20px;
+}
+
+.driver-right { flex: 1; }
+
+.driver-title {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #4B9F3E;
+    font-weight: 700;
+}
+
+.driver-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.driver-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 6px;
+}
+
+.driver-form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #565656;
+}
+
+.driver-input {
+    padding: 8px 15px;
+    border: 1px solid #565656;
+    border-radius: 50px;
+    font-size: 14px;
+    outline: none;
+}
+
+.driver-gender-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.driver-textarea {
+    height: 65px;
+    min-height: 65px;
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #565656;
+    border-radius: 10px;
+}
+
+/* زر Contact Us بنفس الستايل الجميل */
+.driver-contact-btn.download-btn-custom {
+    position: relative;
+    display: inline-block;
+    padding: 6px;
+    background: #429F3D;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(66, 159, 61, 0.45);
+    margin: 15px auto 0;
+}
+
+.driver-contact-btn .btn-inner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.driver-contact-btn .btn-label {
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.driver-contact-btn .circle {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    transition: width 0.5s ease, height 0.5s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .driver-modal-content { flex-direction: column; }
+    .driver-form-row { grid-template-columns: 1fr; }
+    .driver-modal { padding: 25px; }
+}
+
+.driver-modal {
+    position: relative;
+    z-index: 2;
+    
+     max-height: 95vh;              
+    padding: 2px 20px 25px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    animation: fadeIn 0.4s ease;
+}
+
+ .driver-circle-image {
+    width: 180px;      
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 20px;
+    
+}
+
+ .driver-modal-content {
+    margin-bottom: 15px;
+}
+
+.driver-title {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.driver-form-row {
+    margin-bottom: 6px;
+    gap: 12px;
+}
+
+.driver-form-group {
+    padding-bottom: 6px;
+}
+
+.driver-textarea {
+    height: 65px;
+    min-height: 65px;
+}
+
+/* الزر */
+.driver-contact-btn {
+     font-size: 15px;
+    margin: 5px    ;
+    display: block;
+        padding: 5px 30px;         
+        position: relative;
+        
+          
+         
+
+}
+
+ .driver-contact-btn.download-btn-custom {
+    position: relative;
+    left: 260px;
+    bottom: 20px;
+    display: inline-block;
+    padding: 6px;
+    background: #429F3D;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(66, 159, 61, 0.45);
+    transition: all 0.4s ease;
+    border: none;
+    text-decoration: none;
+    margin: 15px auto 0;
+}
+
+.driver-contact-btn .btn-inner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+ }
+ 
+.driver-contact-btn .btn-label {
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+    white-space: nowrap;
+}
+
+.driver-contact-btn .circle-wrapper {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.driver-contact-btn .circle {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    transition: width 0.5s ease, height 0.5s ease;
+}
+
+/* Hover Effect */
+.driver-contact-btn.download-btn-custom:hover .btn-label {
+    color: white;
+    background: transparent;
+}
+
+.driver-contact-btn.download-btn-custom:hover {
+    background: #F2BB13;
+    box-shadow: 0 10px 35px rgba(242, 187, 19, 0.5);
+}

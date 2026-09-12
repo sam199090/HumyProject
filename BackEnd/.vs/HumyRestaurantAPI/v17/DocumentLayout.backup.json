@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\models\\kitchen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:models\\kitchen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\migrations\\20260815203556_adduserstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:migrations\\20260815203556_adduserstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\controllers\\kitchenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:controllers\\kitchenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|c:\\workshop\\humyrestaurantapi\\humyrestaurantapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A35ED9D5-DF0C-4C5D-831B-3D6FDE862347}|HumyRestaurantAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwNQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:32:26.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:31:31.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:30:55.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T21:27:38.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\Dish.cs",
+              "RelativeDocumentMoniker": "Models\\Dish.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\Dish.cs",
+              "RelativeToolTip": "Models\\Dish.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T21:27:54.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Kitchen.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\Kitchen.cs",
+              "RelativeDocumentMoniker": "Models\\Kitchen.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\Kitchen.cs",
+              "RelativeToolTip": "Models\\Kitchen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T21:27:19.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T20:32:26.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T23:15:29.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T23:14:32.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260815203556_AddUsersTable.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Migrations\\20260815203556_AddUsersTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260815203556_AddUsersTable.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Migrations\\20260815203556_AddUsersTable.cs",
+              "RelativeToolTip": "Migrations\\20260815203556_AddUsersTable.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T20:35:57.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAUwKIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T20:34:32.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KitchensController.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\KitchensController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KitchensController.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\KitchensController.cs",
+              "RelativeToolTip": "Controllers\\KitchensController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T15:15:55.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DishesController.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\DishesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DishesController.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\DishesController.cs",
+              "RelativeToolTip": "Controllers\\DishesController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T23:15:17.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T15:27:44.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\workshop\\HumyRestaurantAPI\\HumyRestaurantAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-25T23:15:39.971Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

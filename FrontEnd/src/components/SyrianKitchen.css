@@ -1,0 +1,681 @@
+/* components/SyrianKitchen.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.syrian-kitchen-page {
+    min-height: 100vh;
+    background: #f5f7fa;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.syrian-kitchen-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.syrian-kitchen-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+
+.back-arrow-syrian {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 30px;
+    padding: 10px 40px;
+    background-color: #F2BB13;
+    font-size: 32px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.back-arrow-syrian:hover {
+    transform: translateY(-50%) translateX(-4px);
+}
+
+.logosyrian {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: auto;
+    display: block;
+}
+
+.syrian-kitchen-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+.syrian-dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.dish-card-syrian {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.dish-card-syrian:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.dish-image-wrapper-syrian {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+.dish-image-syrian {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.dish-card-syrian:hover .dish-image-syrian {
+    transform: scale(1.05);
+}
+
+.dish-info-syrian {
+    padding: 20px;
+}
+
+.dish-name-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 8px 0;
+}
+
+.dish-description-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 12px 0;
+    line-height: 1.5;
+}
+
+.dish-price-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F2BB13;
+    display: inline-block;
+}
+
+/* FAB Container */
+.fab-container-syrian {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+}
+
+.fab-button-syrian {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #F2BB13;
+    border: none;
+    box-shadow: 0 6px 25px rgba(242, 187, 19, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fab-button-syrian:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 35px rgba(242, 187, 19, 0.7);
+}
+
+.fab-icon-syrian {
+    font-size: 28px;
+    color: white;
+}
+
+.fab-badge-syrian {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #E53E3E;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    animation: badgePopSyrian 0.3s ease;
+}
+
+@keyframes badgePopSyrian {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Cart Side Panel */
+.cart-overlay-syrian {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    animation: fadeInSyrian 0.3s ease;
+}
+
+@keyframes fadeInSyrian {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.cart-side-panel-syrian {
+    position: fixed;
+    top: 0;
+    right: -450px;
+    width: 420px;
+    max-width: 90%;
+    height: 100%;
+    background: white;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    transition: right 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cart-side-panel-syrian.open {
+    right: 0;
+}
+
+.cart-panel-header-syrian {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.cart-panel-header-syrian h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+
+.cart-close-btn-syrian {
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 0 10px;
+}
+
+.cart-close-btn-syrian:hover {
+    color: #333;
+}
+
+.cart-empty-syrian {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+.cart-empty-icon-syrian {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.cart-empty-syrian p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.cart-items-list-syrian {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px 0;
+}
+
+.cart-item-syrian {
+    display: flex;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f5f5f5;
+    align-items: center;
+}
+
+.cart-item-image-syrian {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cart-item-details-syrian {
+    flex: 1;
+}
+
+.cart-item-details-syrian h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 4px 0;
+}
+
+.cart-item-extras-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #999;
+    margin: 0 0 4px 0;
+}
+
+.cart-item-price-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #F2BB13;
+}
+
+.cart-item-remove-syrian {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 0 5px;
+}
+
+.cart-item-remove-syrian:hover {
+    color: #E53E3E;
+}
+
+.cart-total-syrian {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 2px solid #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cart-total-syrian span:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.cart-total-price-syrian {
+    font-size: 22px;
+    font-weight: 700;
+    color: #F2BB13;
+}
+
+.cart-checkout-btn-syrian {
+    width: 100%;
+    padding: 16px;
+    background: #F2BB13;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    box-shadow: 0 4px 15px rgba(242, 187, 19, 0.3);
+}
+
+.cart-checkout-btn-syrian:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(242, 187, 19, 0.5);
+}
+
+/* Popup styles */
+.popup-overlay-syrian {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: popupFadeInSyrian 0.3s ease;
+}
+
+@keyframes popupFadeInSyrian {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.popup-container-syrian {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.popup-close-syrian {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 10;
+}
+
+.popup-close-syrian:hover {
+    color: #F2BB13;
+}
+
+.popup-dish-image-wrapper-syrian {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.popup-dish-image-syrian {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popup-dish-name-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.popup-dish-description-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+}
+
+.popup-dish-price-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F2BB13;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.popup-extras-section-syrian {
+    border-top: 2px solid #f0f0f0;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.popup-extras-title-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 15px 0;
+}
+
+.popup-extras-grid-syrian {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popup-extra-item-syrian {
+    display: flex;
+    align-items: center;
+}
+
+.popup-extra-label-syrian {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.popup-extra-label-syrian:hover {
+    background: #f5f5f5;
+}
+
+.popup-extra-checkbox-syrian {
+    width: 18px;
+    height: 18px;
+    accent-color: #F2BB13;
+    cursor: pointer;
+}
+
+.popup-extra-name-syrian {
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+}
+
+.popup-extra-price-syrian {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F2BB13;
+}
+
+.popup-total-section-syrian {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 2px solid #f0f0f0;
+    margin-top: 15px;
+}
+
+.popup-total-text-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.popup-total-price-syrian {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #F2BB13;
+}
+
+.popup-add-button-syrian {
+    width: 100%;
+    padding: 16px;
+    background-color: #F2BB13;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    box-shadow: 0 4px 15px rgba(242, 187, 19, 0.3);
+}
+
+.popup-add-button-syrian:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(242, 187, 19, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .syrian-kitchen-header {
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 60px;
+    }
+
+    .back-arrow-syrian {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 8px 30px;
+        font-size: 24px;
+    }
+
+    .back-arrow-syrian:hover {
+        transform: translateX(-50%) translateX(-4px);
+    }
+
+    .logosyrian {
+        position: relative;
+        right: 0;
+        top: 0;
+        transform: none;
+        width: 60px;
+    }
+
+    .syrian-kitchen-title {
+        font-size: 28px;
+    }
+
+    .syrian-dishes-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .syrian-dishes-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .dish-image-wrapper-syrian {
+        height: 150px;
+    }
+
+    .dish-name-syrian {
+        font-size: 16px;
+    }
+
+    .dish-description-syrian {
+        font-size: 12px;
+    }
+
+    .dish-info-syrian {
+        padding: 12px;
+    }
+
+    .popup-container-syrian {
+        padding: 25px;
+        max-width: 95%;
+    }
+
+    .popup-dish-name-syrian {
+        font-size: 20px;
+    }
+
+    .popup-dish-image-wrapper-syrian {
+        height: 150px;
+    }
+
+    .cart-side-panel-syrian {
+        width: 100%;
+        max-width: 100%;
+        right: -100%;
+        padding: 20px;
+    }
+
+    .cart-side-panel-syrian.open {
+        right: 0;
+    }
+
+    .fab-container-syrian {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .fab-button-syrian {
+        width: 55px;
+        height: 55px;
+    }
+
+    .fab-icon-syrian {
+        font-size: 24px;
+    }
+}

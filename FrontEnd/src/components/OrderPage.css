@@ -1,0 +1,446 @@
+/* OrderPage.css */
+.order-page {
+    min-height: 100vh;
+    background: #f5f7fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+.order-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* ONpic*/
+
+.hero-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.5);
+}
+
+/*    Login/Signup في الأعلى يسار  */
+
+.auth-links {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    z-index: 20;
+ }
+
+.auth-text {
+    position: relative;
+    bottom:550px;
+    right: 700px;
+    background: #F2BB13 !important;
+    color: #ffffff !important;
+    padding: 10px 20px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    letter-spacing: 1.5px !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    border: none !important;
+    white-space: nowrap !important;
+    box-shadow: 0 4px 15px rgba(242, 187, 19, 0.3) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    display: inline-block !important;
+}
+.auth-text:hover {
+    color: #ffffff !important;
+    background: #F2BB13 !important;
+    box-shadow: 0 4px 25px rgba(242, 187, 19, 0.5) !important;
+ }
+
+.auth-text::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: -100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent) !important;
+    transition: left 0.6s ease !important;
+}
+
+.auth-text:hover::before {
+    left: 100% !important;
+}
+
+/* Logo*/
+
+
+.logo-overlay {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.logo-img {
+    width: 300px;
+     height: auto;
+    display: block;
+}
+
+/* rectangle*/
+.rectangle-box {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 17%;
+    max-width: 600px;
+    background: #F2BB13;
+    border-radius: 70px;
+    padding: 20px 30px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    z-index: 15;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Eat here box*/
+
+.box-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    position: relative;
+}
+
+.box-section::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 20%;
+    /* التحكم بارتفاع بداية الخط */
+    height: 60%;
+    /* طول الخط */
+    width: 0.5px;
+    background-color: #e8e8e8;
+}
+
+.box-section:last-child {
+    border-right: none;
+}
+
+.section-icon {
+    cursor: pointer;
+    width: 80px;
+    height: 100%;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+    filter: brightness(0) invert(1)
+    
+    
+}
+
+
+.box-section:hover .section-icon {
+    transform: scale(1.1);
+}
+
+.section-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Take away box*/
+
+.box-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+     position: relative;
+      border-right: none;
+
+}
+
+
+.box-section2::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 20%;
+     height: 60%;
+     width: 0.5px;
+    background-color: #e8e8e8;
+}
+.section-text2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.section-icon2 {
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+    filter: brightness(0) invert(1)
+    
+}
+
+
+.box-section2:hover .section-icon2 {
+    transform: scale(1.1);
+}
+
+/* Delivery box */
+
+.box-section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+ }
+
+
+
+.section-text3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-icon3 {
+    cursor: pointer;
+    width: 70px;
+    height: 60%;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+    filter: brightness(0) invert(1);
+    transform: scaleX(-1);
+    /* عكس الصورة */
+}
+
+.box-section3:hover .section-icon3 {
+    transform: scaleX(-1) scale(1.1);
+    /* يبقى معكوساً ويكبر شوية */
+}
+
+
+/* Menu + Login Container */
+.menu-login-container {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+/* Menu Toggle - Circle with two lines */
+.menu-toggle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50% 50% 50% 50%;
+    background: #F2BB13;
+    backdrop-filter: blur(10px);
+     border-right: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 520px;
+ }
+
+
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.menu-line {
+    width: 42px;
+    height: 2.5px;
+    background: white;
+    border-radius: 2px;
+ }
+
+/* Login Button */
+.login-button {
+    background: #F2BB13;
+    color: #ffffff;
+    padding: 15px 35px;
+    border-radius: 0 50px 50px 0;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(242, 187, 19, 0.3);
+    min-width: 100px;
+     position: relative;
+    top: 520px;
+    right: 20px;
+}
+
+ 
+.signup-text {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+/* Side Menu */
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 280px;
+    height: 100%;
+    background: #F2BB13;
+    backdrop-filter: blur(15px);
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.1);
+    z-index: 40;
+    transition: left 0.3s ease;
+    padding-top: 80px;
+}
+
+.side-menu.open {
+    left: 0;
+}
+
+.side-menu-content {
+    padding: 20px;
+}
+
+ .user-info {
+    padding: 15px 20px !important;
+    background: #f5f7fa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.user-info .menu-item-text {
+    font-weight: 600 !important;
+    color: #333 !important;
+    font-size: 14px !important;
+}
+ 
+/* Menu Items */
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.menu-item-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+        filter: brightness(0) invert(1);
+
+}
+
+.menu-item-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .rectangle-box {
+        flex-direction: column;
+        padding: 15px;
+        width: 90%;
+        bottom: -20px;
+    }
+
+    .box-section {
+        border-right: none;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .box-section:last-child {
+        border-bottom: none;
+    }
+
+    .logo-img {
+        max-width: 100px;
+    }
+     .menu-login-container {
+        top: 20px;
+        left: 20px;
+    }
+    
+    .menu-toggle {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .menu-line {
+        width: 18px;
+        height: 2px;
+    }
+    
+    .login-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        min-width: 80px;
+    }
+    
+    .side-menu {
+        width: 240px;
+        left: -260px;
+    }
+}

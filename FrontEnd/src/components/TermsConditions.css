@@ -1,0 +1,293 @@
+/* src/components/TermsConditions.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.terms-page {
+      max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #FFFFFF;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background: #FFFFFF;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 20 20px 20px rgba(1, 1, 1,1),
+                0 4px 12px rgba(1, 1, 1,1);
+    border-bottom: 2px solid rgba(0, 0, 0,0.10);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 120px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.search-section {
+    flex: 1;
+    max-width: 400px;
+    margin: 0 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #E2E2E2;
+    background-color: #F2F3F3;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #565656;
+}
+
+.nav-section {
+    display: flex;
+    gap: 15px;
+    min-width: 400px;
+    justify-content: flex-end;
+}
+
+.nav-btn {
+    padding: 8px 16px;
+    background: transparent;
+    border: none;
+    color: #565656;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    color: #429F3D;
+}
+
+/* Terms Section */
+.terms-section {
+    margin: 0;
+    padding: 60px 0px;
+    background: #4B9F3E;
+     text-align: center;
+     width: 1160px;
+     border-radius: 15px;
+    
+ }
+ 
+  
+.terms-text {
+     color: #FFFFFF;
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+ 
+
+ 
+.terms-container {
+    max-width: 1200px;
+    margin: 0 auto;
+     border-radius: 20px;
+     padding-top: 40px;
+ }
+
+  
+
+/* Terms Items */
+
+
+
+.terms-item {
+    margin-bottom: 40px;
+}
+
+.terms-item:last-child {
+    margin-bottom: 0;
+}
+
+.terms-item-title {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+ }
+
+.terms-item-text {
+    font-size: 16px;
+    color: #565656;
+    line-height: 1.8;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+/* Footer Section */
+
+.footer-section {
+    background: #3A3A3A;
+    margin-top: 60px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-columns {
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.footer-column {
+    text-align: left;
+}
+
+.footer-logo {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo-img {
+    width: 80px;
+    height: 150px;
+    object-fit: contain;
+    object-position: top;
+}
+
+.footer-logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+
+.footer-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #F2BB13;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.footer-links a {
+    font-size: 12px;
+    color: #c5c5c5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #429F3D;
+}
+
+.footer-social-label {
+    font-size: 14px;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    font-size: 16px;
+    color: #c5c5c5;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.social-icon:hover {
+    color: #F2BB13;
+}
+
+.social-icon:hover {
+    color: #429F3D;
+}
+
+/* Copyright Section */
+.footer-copyright {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.footer-copyright p {
+    font-size: 12px;
+    color: #000000;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .search-section {
+        width: 100%;
+        max-width: none;
+    }
+
+    .nav-section {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        min-width: auto;
+    }
+    
+    .terms-title {
+        font-size: 36px;
+    }
+    
+    .terms-container {
+        padding: 30px;
+    }
+    
+    .terms-content h2 {
+        font-size: 20px;
+    }
+    
+    .terms-content p {
+        font-size: 14px;
+    }
+}

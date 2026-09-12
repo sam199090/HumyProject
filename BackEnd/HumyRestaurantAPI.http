@@ -1,0 +1,6 @@
+@HumyRestaurantAPI_HostAddress = http://localhost:5255
+
+GET {{HumyRestaurantAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

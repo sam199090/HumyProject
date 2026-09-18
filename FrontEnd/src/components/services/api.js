@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://humy-backend.runasp.net/api',
+    baseURL: 'https://humy-backend.runasp.net/api',
     timeout: 10000,
     headers: {
         'Content-Type': 'application/json',
